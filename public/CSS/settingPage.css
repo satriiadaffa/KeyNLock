@@ -1,0 +1,113 @@
+*{
+    font-family: "Monospace", monospace;
+    
+}
+/* .container{
+    background-color:salmon;
+} */
+
+.nav{
+    margin-top: 5px;
+}
+.nav-opt{
+    width:1000px;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    text-align: center;
+
+}
+
+/* table , tr, td, th{
+    border: 1px solid #000000;
+} */
+
+
+td{
+    padding:0px 5px 5px 5px;
+}
+
+
+table{
+    
+    width: 100%;
+    padding: 10px 55px 10px 0px;
+}
+
+
+
+
+
+p{
+    margin: 20px 0px 0px 0px;
+}
+
+a{
+    margin: 0px 5px 10px 0px;
+    text-decoration: none;
+    color:rgb(186, 106, 255);
+}
+
+a:hover{
+    color: rgb(62, 31, 80);
+}
+
+input #bio, #phoneNumber, #email, #userName,#fullName,#password,#confirmPassword{
+    width: 100%;
+    margin: 0px 20px 0px 0px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    background-color:rgb(232, 240, 255);
+    color: #6f6f6f;
+}
+#bio::-webkit-input-placeholder {
+font-family: "Monospace", monospace;
+}
+#phoneNumber::-webkit-input-placeholder {
+    font-family: "Monospace", monospace;
+}
+#email::-webkit-input-placeholder {
+font-family: "Monospace", monospace;
+}
+#lastName::-webkit-input-placeholder {
+font-family: "Monospace", monospace;
+}
+#firstName::-webkit-input-placeholder {
+    font-family: "Monospace", monospace;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    padding: 5px 0px 0px 10px;
+    font-family: "Monospace", monospace;
+    background-color:rgb(232, 240, 255);
+    border:none;
+    color: #6f6f6f;
+    
+}
+
+input[type="text"],[type="email"],[type="password"] {
+    padding: 10px;
+    font-family: "Monospace", monospace;
+  }
+
+img{
+    background-color:rgb(232, 240, 255);
+    border-radius: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 6%;
+}
+
+hr{
+    margin: 0px 55px 0px 0px;
+}
+
+.buttons{
+    width: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 20px -10px;
+}
+
